@@ -11,9 +11,10 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
 </head>
 <body>
-    @yield('navbar')
+    @include('inc.navbar')
+    <div class="container">
     @yield('content')
-
+    </div>
 
 </body>
 </html>
