@@ -29,10 +29,11 @@
     </div>
 </div>
 
-
-{{--<script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>--}}
-{{--<script>--}}
-{{--CKEDITOR.replace( 'article-ckeditor' );--}}
-{{--</script>--}}
+<script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
+<script type="application/javascript">
+    $(document).ready(function(){
+        CKEDITOR.replace( 'article-ckeditor' );
+    });
+</script>
 </body>
 </html>

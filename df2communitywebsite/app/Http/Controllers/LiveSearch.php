@@ -23,13 +23,15 @@ class LiveSearch extends Controller
                 $data = DB::table('posts')
                     ->where('title', 'like', '%'.$query.'%')
                     ->orWhere('body', 'like', '%'.$query.'%')
-                    ->get()->where('hidden', 'false');
+                    ->where('hidden', 'false')
+                    ->get();
             }
             else
             {
                 $data = DB::table('posts')
                     ->orderBy('title', 'desc')
-                    ->get()->where('hidden', 'false');
+                    ->where('hidden', 'false')
+                    ->get();
             }
             $total_row = $data->count();
             if($total_row > 0)
@@ -38,8 +40,9 @@ class LiveSearch extends Controller
                 {
                     $output .= "
                     <tr>
-                        <td><a href='http://df2communitywebsite.test/posts/".$row->id."'>".$row->title."</a></td>
-                        <td>".$row->body."</td>
+                        <td colspan='2'><a href='http://df2communitywebsite.test/posts/".$row->id."'>".$row->title."</a></td>
+                        <td colspan='1'></td>
+                        <td colspan='1'>".$row->body."</td>
                     </tr>
                     ";
                 }

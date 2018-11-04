@@ -12,11 +12,21 @@
   <component name="ComposerSettings" synchronizationState="DONT_SYNCHRONIZE" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="services.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/df2communitywebsite/resources/views/pages/services.blade.php">
+      <file leaf-file-name="dashboard.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/df2communitywebsite/resources/views/dashboard.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+            <state relative-caret-position="305">
+              <caret line="69" column="25" lean-forward="true" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/df2communitywebsite/resources/views/pages/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -25,51 +35,39 @@
       <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/df2communitywebsite/resources/views/layouts/app.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
+            <state relative-caret-position="271">
+              <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PagesController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/df2communitywebsite/app/Http/Controllers/PagesController.php">
+      <file leaf-file-name="navbar.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/df2communitywebsite/resources/views/inc/navbar.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+            <state relative-caret-position="257">
+              <caret line="32" column="25" lean-forward="true" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/df2communitywebsite/app/User.php">
+      <file leaf-file-name="messages.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/df2communitywebsite/resources/views/inc/messages.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="31" column="35" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="35" />
+            <state relative-caret-position="272">
+              <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018_11_04_141607_add_category_to_posts.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/df2communitywebsite/database/migrations/2018_11_04_141607_add_category_to_posts.php">
+      <file leaf-file-name="app.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/df2communitywebsite/resources/sass/app.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="30" column="5" lean-forward="true" selection-start-line="27" selection-start-column="11" selection-end-line="30" selection-end-column="5" />
+            <state relative-caret-position="-681">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PostController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/df2communitywebsite/app/Http/Controllers/PostController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
-              <folding>
-                <element signature="e#40#68#0#PHP" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -77,15 +75,9 @@
       <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/df2communitywebsite/resources/views/posts/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="76" lean-forward="true" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="76" />
-              <folding>
-                <element signature="e#66#87#0#HTML" expanded="true" />
-                <element signature="e#1393#1418#0#HTML" expanded="true" />
-                <element signature="e#1441#1462#0#HTML" expanded="true" />
-                <element signature="e#1896#1915#0#HTML" expanded="true" />
-                <element signature="e#2092#2135#0#HTML" expanded="true" />
-              </folding>
+            <state relative-caret-position="272">
+              <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -93,18 +85,8 @@
       <file leaf-file-name="show.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/df2communitywebsite/resources/views/posts/show.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="19" column="60" lean-forward="false" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="60" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Post.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/df2communitywebsite/app/Post.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="41" lean-forward="false" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="41" />
+            <state relative-caret-position="254">
+              <caret line="19" column="58" lean-forward="true" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
               <folding />
             </state>
           </provider>
@@ -113,12 +95,28 @@
       <file leaf-file-name="edit.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/df2communitywebsite/resources/views/posts/edit.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+            <state relative-caret-position="271">
+              <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
               <folding>
-                <marker date="1541342587581" expanded="true" signature="723:1322" ph="..." />
-                <marker date="1541342587581" expanded="true" signature="736:1308" ph="..." />
-                <marker date="1541342587581" expanded="true" signature="754:1233" ph="..." />
+                <marker date="1541367295426" expanded="true" signature="723:1322" ph="..." />
+                <marker date="1541367295426" expanded="true" signature="736:1308" ph="..." />
+                <marker date="1541367295426" expanded="true" signature="754:1233" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/df2communitywebsite/resources/views/posts/create.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="51" lean-forward="true" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+              <folding>
+                <marker date="1541367289932" expanded="true" signature="640:1291" ph="..." />
+                <marker date="1541367289932" expanded="true" signature="692:1291" ph="..." />
+                <marker date="1541367289932" expanded="true" signature="1188:1202" ph="..." />
+                <marker date="1541367289932" expanded="true" signature="1188:1277" ph="..." />
+                <marker date="1541367289932" expanded="true" signature="1188:1291" ph="..." />
               </folding>
             </state>
           </provider>
@@ -133,6 +131,7 @@
       <find>id=</find>
       <find>#</find>
       <find>boot</find>
+      <find>-&gt;get()</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -148,11 +147,9 @@
         <option value="$PROJECT_DIR$/df2communitywebsite/resources/views/layouts/main.php" />
         <option value="$PROJECT_DIR$/df2communitywebsite/database/migrations/2018_10_01_112842_ads.php" />
         <option value="$PROJECT_DIR$/df2communitywebsite/app/Providers/AppServiceProvider.php" />
-        <option value="$PROJECT_DIR$/df2communitywebsite/app/Http/Controllers/PagesController.php" />
         <option value="$PROJECT_DIR$/df2communitywebsite/resources/sass/_custom.scss" />
         <option value="$PROJECT_DIR$/df2communitywebsite/database/migrations/2018_10_05_125224_create_posts_table.php" />
         <option value="$PROJECT_DIR$/df2communitywebsite/resources/views/inc/posts/index.blade.php" />
-        <option value="$PROJECT_DIR$/df2communitywebsite/resources/views/inc/messages.blade.php" />
         <option value="$PROJECT_DIR$/df2communitywebsite/.env" />
         <option value="$PROJECT_DIR$/df2communitywebsite/config/app.php" />
         <option value="$PROJECT_DIR$/df2communitywebsite/database/migrations/2014_10_12_000000_create_users_table.php" />
@@ -164,34 +161,36 @@
         <option value="$PROJECT_DIR$/df2communitywebsite/app/Post.php" />
         <option value="$PROJECT_DIR$/df2communitywebsite/database/migrations/2018_10_31_185331_add_user_id_to_posts.php" />
         <option value="$PROJECT_DIR$/df2communitywebsite/database/migrations/2018_11_01_121604_add_role_to_user.php" />
-        <option value="$PROJECT_DIR$/df2communitywebsite/app/Http/Controllers/SettingsController.php" />
-        <option value="$PROJECT_DIR$/df2communitywebsite/resources/views/settings.blade.php" />
         <option value="$PROJECT_DIR$/df2communitywebsite/resources/views/layouts/main.blade.php" />
         <option value="$PROJECT_DIR$/df2communitywebsite/resources/views/pages/services.blade.php" />
         <option value="$PROJECT_DIR$/df2communitywebsite/resources/views/pages/about.blade.php" />
         <option value="$PROJECT_DIR$/df2communitywebsite/database/migrations/2018_11_03_133113_add_cover_image_to_posts.php" />
         <option value="$PROJECT_DIR$/df2communitywebsite/resources/views/trending.blade.php" />
-        <option value="$PROJECT_DIR$/df2communitywebsite/resources/views/pages/index.blade.php" />
         <option value="$PROJECT_DIR$/df2communitywebsite/database/migrations/2018_11_03_151354_add_hidden_to_posts.php" />
         <option value="$PROJECT_DIR$/df2communitywebsite/database/migrations/2018_11_03_152123_add_hidden_to_posts.php" />
         <option value="$PROJECT_DIR$/df2communitywebsite/database/migrations/2018_11_03_152450_add_hidden_to_posts.php" />
         <option value="$PROJECT_DIR$/df2communitywebsite/public/css/app.css" />
-        <option value="$PROJECT_DIR$/df2communitywebsite/resources/sass/app.scss" />
-        <option value="$PROJECT_DIR$/df2communitywebsite/app/Http/Controllers/DashboardController.php" />
         <option value="$PROJECT_DIR$/df2communitywebsite/app/User.php" />
         <option value="$PROJECT_DIR$/df2communitywebsite/app/Http/Controllers/Auth/RegisterController.php" />
-        <option value="$PROJECT_DIR$/df2communitywebsite/resources/views/dashboard.blade.php" />
-        <option value="$PROJECT_DIR$/df2communitywebsite/app/Http/Controllers/LiveSearch.php" />
-        <option value="$PROJECT_DIR$/df2communitywebsite/resources/views/layouts/app.blade.php" />
-        <option value="$PROJECT_DIR$/df2communitywebsite/resources/views/live_search.blade.php" />
         <option value="$PROJECT_DIR$/df2communitywebsite/database/migrations/2018_11_04_141607_add_category_to_posts.php" />
-        <option value="$PROJECT_DIR$/df2communitywebsite/resources/views/posts/edit.blade.php" />
-        <option value="$PROJECT_DIR$/df2communitywebsite/resources/views/posts/create.blade.php" />
+        <option value="$PROJECT_DIR$/df2communitywebsite/app/Http/Controllers/LiveSearch.php" />
+        <option value="$PROJECT_DIR$/df2communitywebsite/app/Http/Controllers/SettingsController.php" />
+        <option value="$PROJECT_DIR$/df2communitywebsite/resources/views/settings.blade.php" />
+        <option value="$PROJECT_DIR$/df2communitywebsite/app/Http/Controllers/DashboardController.php" />
+        <option value="$PROJECT_DIR$/df2communitywebsite/resources/views/dashboard.blade.php" />
         <option value="$PROJECT_DIR$/df2communitywebsite/resources/views/inc/navbar.blade.php" />
+        <option value="$PROJECT_DIR$/df2communitywebsite/resources/views/pages/index.blade.php" />
+        <option value="$PROJECT_DIR$/df2communitywebsite/resources/views/inc/messages.blade.php" />
+        <option value="$PROJECT_DIR$/df2communitywebsite/resources/views/posts/create.blade.php" />
+        <option value="$PROJECT_DIR$/df2communitywebsite/resources/views/posts/edit.blade.php" />
+        <option value="$PROJECT_DIR$/df2communitywebsite/app/Http/Controllers/PagesController.php" />
         <option value="$PROJECT_DIR$/df2communitywebsite/routes/web.php" />
-        <option value="$PROJECT_DIR$/df2communitywebsite/resources/views/posts/show.blade.php" />
         <option value="$PROJECT_DIR$/df2communitywebsite/app/Http/Controllers/PostController.php" />
+        <option value="$PROJECT_DIR$/df2communitywebsite/resources/views/live_search.blade.php" />
+        <option value="$PROJECT_DIR$/df2communitywebsite/resources/views/posts/show.blade.php" />
         <option value="$PROJECT_DIR$/df2communitywebsite/resources/views/posts/index.blade.php" />
+        <option value="$PROJECT_DIR$/df2communitywebsite/resources/views/layouts/app.blade.php" />
+        <option value="$PROJECT_DIR$/df2communitywebsite/resources/sass/app.scss" />
       </list>
     </option>
   </component>
@@ -463,12 +462,12 @@
       <workItem from="1541011017644" duration="7259000" />
       <workItem from="1541074181229" duration="29622000" />
       <workItem from="1541276488304" duration="3300000" />
-      <workItem from="1541333316031" duration="15307000" />
+      <workItem from="1541333316031" duration="29353000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106552000" />
+    <option name="totallyTimeSpent" value="120598000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -481,8 +480,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25053304" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25053304" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33913043" sideWeight="0.28837952" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -512,14 +512,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/df2communitywebsite/database/migrations/2018_10_01_112842_ads.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="32" column="28" lean-forward="false" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/df2communitywebsite/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -656,86 +648,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/df2communitywebsite/resources/views/trending.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="4" lean-forward="false" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/df2communitywebsite/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="33" lean-forward="false" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/df2communitywebsite/app/Http/Controllers/SettingsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="21" lean-forward="false" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/df2communitywebsite/resources/views/settings.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="36" lean-forward="false" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/df2communitywebsite/app/Http/Controllers/Auth/RegisterController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="69" column="29" lean-forward="false" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/df2communitywebsite/app/Http/Controllers/DashboardController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/df2communitywebsite/app/Http/Controllers/Auth/LoginController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="27" column="39" lean-forward="false" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/df2communitywebsite/app/Http/Controllers/LiveSearch.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="45" column="13" lean-forward="true" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-            <marker date="1541336914987" expanded="true" signature="1007:1008" ph="..." />
-            <marker date="1541336914987" expanded="true" signature="1007:1044" ph="..." />
-            <marker date="1541336914987" expanded="true" signature="1007:1083" ph="..." />
-            <marker date="1541336914987" expanded="true" signature="1007:1084" ph="..." />
-            <marker date="1541336914987" expanded="true" signature="1007:1096" ph="..." />
-            <marker date="1541336914987" expanded="true" signature="1007:1098" ph="..." />
-            <marker date="1541336914987" expanded="true" signature="1007:1163" ph="..." />
-            <marker date="1541336914987" expanded="true" signature="1007:1195" ph="..." />
-            <marker date="1541336914987" expanded="true" signature="1007:1216" ph="..." />
-            <marker date="1541336914987" expanded="true" signature="1007:1308" ph="..." />
-            <marker date="1541336914987" expanded="true" signature="1330:1361" ph="..." />
-            <marker date="1541336914987" expanded="true" signature="1330:1422" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/df2communitywebsite/resources/sass/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -748,150 +664,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/df2communitywebsite/app/Http/Controllers/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/df2communitywebsite/resources/views/inc/messages.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/df2communitywebsite/resources/views/dashboard.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="35" column="61" lean-forward="true" selection-start-line="32" selection-start-column="40" selection-end-line="35" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/df2communitywebsite/resources/views/posts/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
-          <folding>
-            <marker date="1541342605711" expanded="true" signature="640:1291" ph="..." />
-            <marker date="1541342605711" expanded="true" signature="692:1291" ph="..." />
-            <marker date="1541342605711" expanded="true" signature="1188:1202" ph="..." />
-            <marker date="1541342605711" expanded="true" signature="1188:1277" ph="..." />
-            <marker date="1541342605711" expanded="true" signature="1188:1291" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/df2communitywebsite/resources/views/live_search.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="28" column="37" lean-forward="false" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/df2communitywebsite/resources/views/pages/about.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/df2communitywebsite/resources/views/pages/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="21" lean-forward="false" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/df2communitywebsite/resources/views/inc/navbar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="28" column="65" lean-forward="false" selection-start-line="28" selection-start-column="65" selection-end-line="28" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/df2communitywebsite/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="37" column="54" lean-forward="true" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="54" />
-          <folding>
-            <element signature="e#7#389#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/df2communitywebsite/resources/views/layouts/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="19" lean-forward="true" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/df2communitywebsite/app/Http/Controllers/PostController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/df2communitywebsite/resources/views/pages/services.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/df2communitywebsite/app/Http/Controllers/PagesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/df2communitywebsite/resources/views/posts/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
-          <folding>
-            <marker date="1541342587581" expanded="true" signature="723:1322" ph="..." />
-            <marker date="1541342587581" expanded="true" signature="736:1308" ph="..." />
-            <marker date="1541342587581" expanded="true" signature="754:1233" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/df2communitywebsite/resources/views/posts/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="76" lean-forward="true" selection-start-line="20" selection-start-column="76" selection-end-line="20" selection-end-column="76" />
-          <folding>
-            <element signature="e#66#87#0#HTML" expanded="true" />
-            <element signature="e#1393#1418#0#HTML" expanded="true" />
-            <element signature="e#1441#1462#0#HTML" expanded="true" />
-            <element signature="e#1896#1915#0#HTML" expanded="true" />
-            <element signature="e#2092#2135#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/df2communitywebsite/resources/views/posts/show.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="19" column="60" lean-forward="false" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="60" />
           <folding />
         </state>
       </provider>
@@ -904,18 +680,252 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/df2communitywebsite/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="31" column="35" lean-forward="true" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/df2communitywebsite/database/migrations/2018_11_04_141607_add_category_to_posts.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="30" column="5" lean-forward="true" selection-start-line="27" selection-start-column="11" selection-end-line="30" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/df2communitywebsite/config/auth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/df2communitywebsite/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="55" lean-forward="true" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
+          <folding>
+            <element signature="e#23#63#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/df2communitywebsite/app/Http/Controllers/Auth/RegisterController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="67" column="38" lean-forward="true" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/df2communitywebsite/resources/views/pages/about.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/df2communitywebsite/resources/views/trending.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/df2communitywebsite/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/df2communitywebsite/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding>
+            <element signature="e#7#389#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/df2communitywebsite/app/Http/Controllers/PostController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225">
+          <caret line="182" column="50" lean-forward="false" selection-start-line="182" selection-start-column="50" selection-end-line="182" selection-end-column="50" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/df2communitywebsite/app/Http/Controllers/SettingsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-353">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/df2communitywebsite/app/Http/Controllers/PagesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/df2communitywebsite/app/Http/Controllers/LiveSearch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-239">
+          <caret line="25" column="46" lean-forward="true" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="46" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+            <marker date="1541355446421" expanded="true" signature="1049:1050" ph="..." />
+            <marker date="1541355446421" expanded="true" signature="1049:1086" ph="..." />
+            <marker date="1541355446421" expanded="true" signature="1049:1087" ph="..." />
+            <marker date="1541355446421" expanded="true" signature="1049:1098" ph="..." />
+            <marker date="1541355446421" expanded="true" signature="1049:1137" ph="..." />
+            <marker date="1541355446421" expanded="true" signature="1049:1138" ph="..." />
+            <marker date="1541355446421" expanded="true" signature="1049:1150" ph="..." />
+            <marker date="1541355446421" expanded="true" signature="1049:1152" ph="..." />
+            <marker date="1541355446421" expanded="true" signature="1049:1216" ph="..." />
+            <marker date="1541355446421" expanded="true" signature="1049:1217" ph="..." />
+            <marker date="1541355446421" expanded="true" signature="1049:1307" ph="..." />
+            <marker date="1541355446421" expanded="true" signature="1049:1328" ph="..." />
+            <marker date="1541355446421" expanded="true" signature="1442:1473" ph="..." />
+            <marker date="1541355446421" expanded="true" signature="1442:1534" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/df2communitywebsite/app/Http/Controllers/DashboardController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-154">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/df2communitywebsite/app/Http/Controllers/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding>
+            <element signature="e#40#85#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/df2communitywebsite/resources/views/settings.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="29" column="69" lean-forward="false" selection-start-line="29" selection-start-column="69" selection-end-line="29" selection-end-column="69" />
+          <folding>
+            <marker date="1541363044228" expanded="true" signature="1255:1320" ph="..." />
+            <marker date="1541363044228" expanded="true" signature="1268:1320" ph="..." />
+            <marker date="1541363044228" expanded="true" signature="1282:1318" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/df2communitywebsite/resources/views/live_search.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/df2communitywebsite/resources/views/dashboard.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="69" column="25" lean-forward="true" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/df2communitywebsite/resources/views/posts/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="19" column="58" lean-forward="true" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/df2communitywebsite/resources/views/posts/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="40" lean-forward="false" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/df2communitywebsite/resources/views/posts/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <folding>
+            <marker date="1541367295426" expanded="true" signature="723:1322" ph="..." />
+            <marker date="1541367295426" expanded="true" signature="736:1308" ph="..." />
+            <marker date="1541367295426" expanded="true" signature="754:1233" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/df2communitywebsite/resources/views/posts/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="51" lean-forward="true" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+          <folding>
+            <marker date="1541367289932" expanded="true" signature="640:1291" ph="..." />
+            <marker date="1541367289932" expanded="true" signature="692:1291" ph="..." />
+            <marker date="1541367289932" expanded="true" signature="1188:1202" ph="..." />
+            <marker date="1541367289932" expanded="true" signature="1188:1277" ph="..." />
+            <marker date="1541367289932" expanded="true" signature="1188:1291" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/df2communitywebsite/resources/views/pages/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/df2communitywebsite/resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/df2communitywebsite/resources/views/inc/navbar.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="32" column="25" lean-forward="true" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/df2communitywebsite/resources/views/inc/messages.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/df2communitywebsite/resources/sass/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-681">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>

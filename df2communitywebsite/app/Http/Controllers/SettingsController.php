@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\User;
 
 class SettingsController extends Controller
 {
@@ -23,10 +24,27 @@ class SettingsController extends Controller
      */
     public function index()
     {
-//        $user_id = auth()->user()->id;
-//        $user = User::find($user_id);
+        $user_role = auth()->user()->role;
+        $users = User::all();
 
+        if($user_role == 'admin'){
+            return view('settings')->with('users', $users);
+        }else{
+            return redirect('/dashboard');
+        }
+    }
 
-        return view('settings');
+    public function update(Request $request, $id)
+    {
+        $this->validate($request, [
+            'role' => 'required',
+        ]);
+
+        $user = User::find($id);
+        $user->role = $request->input('role');
+
+        $user->save();
+
+        return redirect('/settings')->with('success', 'User Updated');
     }
 }

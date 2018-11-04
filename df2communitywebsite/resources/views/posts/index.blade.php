@@ -41,15 +41,13 @@
                             </figure>
                         </div>
                         <div class="col-md-8 col-sm-8" style="max-height: 330px;overflow: hidden;">
-                            {{$post->body}}
+                            {!! $post->body !!}
                         </div>
                     </div>
                     <small>Written on {{$post->created_at}} by {{$post->user->name}}</small>
                 </div>
             </div>
-
         @endforeach
-        {{--{{$posts->links()}}--}}
     @else
         <p>No posts found</p>
     @endif

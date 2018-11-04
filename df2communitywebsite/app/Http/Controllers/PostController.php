@@ -3,9 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-//use Request;
 use Illuminate\Support\Facades\Storage;
 use App\Post;
+use App\User;
+use Auth;
 
 
 class PostController extends Controller
@@ -22,26 +23,40 @@ class PostController extends Controller
 
     public function index(Request $request)
     {
+        if(Auth::guest())
+        {
+            $posts = Post::orderBy('created_at', 'desc')->where('hidden', 'false')->get();
+        }else{
+            $user_role = auth()->user()->role;
+
+            if($user_role == "admin"){
+                $posts = Post::orderBy('created_at', 'desc')->get();
+            }else{
+                $posts = Post::orderBy('created_at', 'desc')->where('hidden', 'false')->get();
+            }
+        }
+
         if ($request->has('category')) {
             $category = $request->get('category');
-            $posts = Post::orderBy('created_at', 'desc')->get()->where('hidden', 'false')->where('category', $category);
+
+            if(Auth::guest())
+            {
+                $posts = Post::orderBy('created_at', 'desc')->where('hidden', 'false')->where('category', $category)->get();
+            }else{
+                $user_role = auth()->user()->role;
+
+                if($user_role == "admin"){
+                    $posts = Post::orderBy('created_at', 'desc')->where('category', $category)->get();
+                }else{
+                    $posts = Post::orderBy('created_at', 'desc')->where('hidden', 'false')->where('category', $category)->get();
+                }
+            }
+
             return view('posts.index')->with('posts', $posts);
         }
 
-        $posts = Post::orderBy('created_at', 'desc')->get()->where('hidden', 'false');
-
         return view('posts.index')->with('posts', $posts);
     }
-
-//    public function filter()
-//    {
-//        $posts = Post::orderBy('created_at', 'desc')->get()->where('hidden', 'false');
-//
-////        echo $category;
-////        Input::get()
-//
-//        return view('posts.index')->with('posts', $posts);
-//    }
 
     /**
      * Show the form for creating a new resource.
@@ -120,9 +135,10 @@ class PostController extends Controller
     public function edit($id)
     {
         $post = Post::find($id);
+        $user_role = auth()->user()->role;
 
-        //check for correct user
-        if(auth()->user()->id !== $post->user_id){
+        //check for correct user and user role is not admin
+        if(auth()->user()->id !== $post->user_id && $user_role !== 'admin'){
             return redirect('/posts')->with('error', "Unauthorized Page");
         }
 
@@ -165,7 +181,6 @@ class PostController extends Controller
                 Storage::delete('public/cover_images/' . $post->cover_image);
             }
             $post->cover_image = $fileNameToStore;
-
         }
 
         //create post
@@ -191,9 +206,10 @@ class PostController extends Controller
     public function destroy($id)
     {
         $post = Post::find($id);
+        $user_role = auth()->user()->role;
 
-        //check for correct user
-        if(auth()->user()->id !== $post->user_id){
+        //check for correct user and user role is not admin
+        if(auth()->user()->id !== $post->user_id && $user_role !== 'admin'){
             return redirect('/posts')->with('error', "Unauthorized Page");
         }
 

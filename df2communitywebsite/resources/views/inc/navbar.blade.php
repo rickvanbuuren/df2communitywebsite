@@ -17,20 +17,11 @@
                     <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/about">About</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" href="/live_search">Search</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/posts">Blog</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/services">services</a>
-                </li>
-                {{--<li class="nav-item">--}}
-                    {{--<a class="nav-link disabled" href="#">Disabled</a>--}}
-                {{--</li>--}}
             </ul>
 
             <!-- Right Side Of Navbar -->
@@ -57,8 +48,9 @@
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
 
                                 <a class="dropdown-item" href="/dashboard/">Dashboard</a>
+                                @if(Auth::user()->role == 'admin')
                                 <a class="dropdown-item" href="/settings/">Settings</a>
-
+                                @endif
                                 <a class="dropdown-item" href="{{ route('logout') }}"
                                         onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">

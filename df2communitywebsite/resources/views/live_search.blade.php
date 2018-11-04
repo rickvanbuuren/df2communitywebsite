@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="container box">
-    <h3 align="center">Search</h3><br />
+    <h3 align="center" style="margin-top: 20px;">Search</h3><br />
     <div class="panel panel-default">
         <div class="panel-heading">Search blog</div>
         <div class="panel-body">
@@ -14,8 +14,9 @@
                 <table class="table table-striped table-bordered">
                     <thead>
                     <tr>
-                        <th>Title</th>
-                        <th>Content</th>
+                        <th colspan="2">Title</th>
+                        <th colspan="1"></th>
+                        <th colspan="1">Content</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -45,12 +46,10 @@
                 }
             })
         }
-
         $(document).on('keyup', '#search', function(){
             var query = $(this).val();
             fetch_customer_data(query);
         });
     });
 </script>
-
 @endsection
