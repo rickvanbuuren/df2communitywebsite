@@ -31,3 +31,8 @@ Auth::routes();
 
 Route::get('/dashboard', 'DashboardController@index');
 Route::get('/settings', 'SettingsController@index');
+
+Route::get('/live_search', 'LiveSearch@index');
+Route::get('/live_search/action', 'LiveSearch@action')->name('live_search.action');
+
+Route::get('/posts/{category}', 'PostController@filter');

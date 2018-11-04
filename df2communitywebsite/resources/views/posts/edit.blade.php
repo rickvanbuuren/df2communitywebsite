@@ -12,6 +12,19 @@
             {{Form::textarea('body', $post->body, ['id' => 'article-ckeditor','class' => 'form-control', 'placeholder' => 'Title'])}}
         </div>
         <div class="form-group">
+            {{Form::label('category', 'Category')}}
+            {{Form::select('category', array('Bosses' => 'Bosses',
+                                             'Levels' => 'Levels',
+                                             'Skills' => 'Skills',
+                                             'Weapons' => 'Weapons',
+                                             'Loot' => 'Loot',
+                                             'Maps' => 'Maps',
+                                             'Quests' => 'Quests',
+                                             'None' => 'None'),
+                                             ['class' => 'form-control'])
+            }}
+        </div>
+        <div class="form-group">
             {{Form::file('cover_image')}}
         </div>
         <div class="form-group">

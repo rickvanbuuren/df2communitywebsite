@@ -20,14 +20,17 @@
                     <a class="nav-link" href="/about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/services">Services</a>
+                    <a class="nav-link" href="/live_search">Search</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/posts">Blog</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
+                    <a class="nav-link" href="/services">services</a>
                 </li>
+                {{--<li class="nav-item">--}}
+                    {{--<a class="nav-link disabled" href="#">Disabled</a>--}}
+                {{--</li>--}}
             </ul>
 
             <!-- Right Side Of Navbar -->
@@ -61,14 +64,12 @@
                                                      document.getElementById('logout-form').submit();">
                                     {{ __('Logout') }}
                                 </a>
-
-
                                 <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                     @csrf
                                 </form>
                             </div>
                         </li>
-                        @endguest
+                @endguest
             </ul>
         </div>
     </div>

@@ -15,6 +15,7 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -27,6 +28,7 @@
         @yield('content')
     </div>
 </div>
+
 
 {{--<script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>--}}
 {{--<script>--}}

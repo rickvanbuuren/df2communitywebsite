@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+//use Request;
 use Illuminate\Support\Facades\Storage;
 use App\Post;
 
@@ -19,16 +20,28 @@ class PostController extends Controller
         $this->middleware('auth', ['except' => ['index', 'show']]);
     }
 
-    public function index()
+    public function index(Request $request)
     {
-//        $posts = Post::all();
-        $posts = Post::orderBy('title', 'desc')->get()->where('hidden', 'false');
-//        $posts = Post::orderBy('title', 'desc')->take(1)->get();
-//        $posts = Post::where('title', 'Post Two')->get();
-//        $posts = Post::orderBy('title', 'desc')->get();
-//        $posts = Post::orderBy('title', 'desc')->paginate(1);
+        if ($request->has('category')) {
+            $category = $request->get('category');
+            $posts = Post::orderBy('created_at', 'desc')->get()->where('hidden', 'false')->where('category', $category);
+            return view('posts.index')->with('posts', $posts);
+        }
+
+        $posts = Post::orderBy('created_at', 'desc')->get()->where('hidden', 'false');
+
         return view('posts.index')->with('posts', $posts);
     }
+
+//    public function filter()
+//    {
+//        $posts = Post::orderBy('created_at', 'desc')->get()->where('hidden', 'false');
+//
+////        echo $category;
+////        Input::get()
+//
+//        return view('posts.index')->with('posts', $posts);
+//    }
 
     /**
      * Show the form for creating a new resource.
@@ -51,6 +64,7 @@ class PostController extends Controller
         $this->validate($request, [
            'title' => 'required',
             'body' => 'required',
+            'category' => 'required',
             'cover_image' => 'image|nullable|max:1999',
             'hide' => 'required',
         ]);
@@ -76,6 +90,7 @@ class PostController extends Controller
         $post = new Post;
         $post->title = $request->input('title');
         $post->body = $request->input('body');
+        $post->category = $request->input('category');
         $post->user_id = auth()->user()->id;
         $post->cover_image = $fileNameToStore;
         $post->hidden = $request->input('hide');
@@ -126,6 +141,7 @@ class PostController extends Controller
         $this->validate($request, [
             'title' => 'required',
             'body' => 'required',
+            'category' => 'required',
             'cover_image' => 'image|nullable|max:1999',
             'hide' => 'required',
         ]);
@@ -152,10 +168,10 @@ class PostController extends Controller
 
         }
 
-
         //create post
         $post->title = $request->input('title');
         $post->body = $request->input('body');
+        $post->category = $request->input('category');
         $post->hidden = $request->input('hide');
         if($request->hasFile('cover_image')){
             $post->cover_image = $fileNameToStore;

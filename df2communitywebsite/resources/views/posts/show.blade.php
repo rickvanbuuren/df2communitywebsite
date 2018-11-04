@@ -2,12 +2,14 @@
 
 @section('content')
     <a href="/posts" class="btn btn-default">Back</a>
+    <div>
+        <small>Category: {{$post->category}}</small>
+    </div>
     <h1>{{$post->title}}</h1>
     <div class="col-md-4 col-sm-4">
         <img style="width: 100%" src="/storage/cover_images/{{$post->cover_image}}">
     </div>
     <div class="col-md-8 col-sm-8">
-
     </div>
     </br>
     </br>
