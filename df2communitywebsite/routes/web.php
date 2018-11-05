@@ -12,17 +12,15 @@
 */
 
 Route::get('/', "PagesController@index");
-Route::get('/about', "PagesController@about");
-Route::get('/services', "PagesController@services");
-
 Route::resource('posts', 'PostController');
+Route::resource('users', 'SettingsController');
 
-//Route::get('/about', function (){
-//   return view('pages.about');
-//});
-//
-//Route::get('/users/{id}/{name}', function ($id, $name){
-//    return 'This is user '.$name . " with a id of ". $id;
-//});
+Auth::routes();
 
+Route::get('/dashboard', 'DashboardController@index');
+Route::get('/settings', 'SettingsController@index');
 
+Route::get('/live_search', 'LiveSearch@index');
+Route::get('/live_search/action', 'LiveSearch@action')->name('live_search.action');
+
+Route::get('/posts/{category}', 'PostController@filter');

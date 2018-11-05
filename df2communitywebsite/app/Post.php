@@ -12,5 +12,9 @@ class Post extends Model
     public $pk = 'id';
 
     public $ts = true;
+
+    public function user(){
+        return $this->belongsTo('App\User');
+    }
 }
 
